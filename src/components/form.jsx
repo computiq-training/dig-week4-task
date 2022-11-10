@@ -20,7 +20,10 @@ const InputForm = (probs) => {
       gender: gender,
       phone: phone,
     })
-    
+    setfullName('')
+    setGender('m')
+    setPhone('')
+    setBirthDate('')
     probs.setFilterPatient([...PATIENTS]);
     console.log(PATIENTS);
     
