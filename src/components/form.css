@@ -1,0 +1,19 @@
+.form{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 50px 10px;
+}
+
+.submitButton{
+    width: 200px;
+    height: 30px;
+    background-color: #3995FF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.submitButton:hover{
+    cursor: pointer;
+    border: 1px solid gray;
+}
