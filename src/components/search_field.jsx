@@ -7,7 +7,9 @@ const SearchField = (probs) => {
       e.target.value === ""
         ? PATIENTS
         : PATIENTS.filter((item) => {
-            return item.full_name.toLowerCase().includes(e.target.value);
+            return item.full_name
+              .toLowerCase()
+              .includes(e.target.value.toLowerCase());
           });
     probs.setFilterPatient(result);
     console.log(probs.filterPatient);
