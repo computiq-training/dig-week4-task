@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# DIGITALIZE - WEEK4 TASK
+## Understanding
+This is a fresh react-app project, Entry point for the app is `index.js`, there is a main component called `App.js`, try to wrap all your components (form, search and table) as children under `App.js`.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
+- Fork the repo.
+- Clone the forked repo into your machine.
+- run `npm i`.
+- Write your solution.
+- Commit and push your changes to the repo.
+- Do pull request.
 
-## Available Scripts
+## Specifications
+1 - Create the following UI and controls:
+  - Add form to the top of the table to add new patient to the patients list.
+  - Add search input to enable the user searchs for a patient by his full name or phone.
+  - Add table that display patients list.
+2- Display patients list in the table.
+3- Add new patient to the list by entering patient information in the form and click on `add` submit button. clear the inputs after submitting.
+4- Implement search functionality: the user can seacrh for patient by full name of phone, the table must be updated while the user typing, if the input become empty then reset table to display the original data
 
-In the project directory, you can run:
+## Hints
+- You can use flexbox to make the page look as much as possible similar to the provided UI.
+- use `map` js function to iterate through patients list and render it in a table.
+- add `Add` button inside the form as submit button and handle `onSubmit` event to collect data from inputs and add them as object to the list.
+- you can use `.filter` js function to do the search on the list.
+- you may define the following states in your `App.js` component:
+  - fullName(text), phone(text), Gender(select), date(picker), submit input (add).
+  - searchValue
+  - patients and filteredPatients
+- Always let table filled with `filteredPatients` and keep patients copy to be the original copy and don't modify it.
+- in case user clears search input, you can restore patients data from `patients` list to `filteredPatients`.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+DONE
