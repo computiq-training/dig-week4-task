@@ -51,6 +51,7 @@ const Patients =  (props)=>{
         setGender('m')
         setPhone('')
         setPatients([...pTemp])
+        setSearchPatients([...pTemp])
         console.log (pTemp)
     }
     
@@ -93,7 +94,6 @@ const Patients =  (props)=>{
         });
         setPatients([...result])
         setSearchPatients([...result])
-
 }
     return (
         <div>
@@ -112,7 +112,7 @@ const Patients =  (props)=>{
             </div>
             <div className="table"> 
             <table >
-                <caption>Information For Students</caption>
+                <caption>Information For Patients</caption>
                             <thead>
                                 <tr>
                                     <th>Full Name</th>
