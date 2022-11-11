@@ -36,3 +36,85 @@
     transform: rotate(360deg);
   }
 }
+
+.card-bg{
+  background-color: aqua;
+  margin: 5px;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #3995FF;
+  color: white;
+}
+
+.add {
+  background-color: #3995FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.delete {
+  background-color: #FF5353;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.input_text {
+  /* background-color:; */
+  /* border: none; */
+  /* color: white; */
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 10px;
+  cursor: pointer;
+  /* border-radius: 10%; */
+}
+
+.input_search{
+    /* background-color:; */
+    /* border: none; */
+    /* color: white; */
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    width: 30%;
+    /* border-radius: 10%; */
+}
