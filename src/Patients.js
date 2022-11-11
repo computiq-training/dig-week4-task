@@ -92,6 +92,8 @@ const Patients =  (props)=>{
             return  ele.id !=e.target.value
         });
         setPatients([...result])
+        setSearchPatients([...result])
+
 }
     return (
         <div>
@@ -125,7 +127,7 @@ const Patients =  (props)=>{
                                                 <td>{item.birth_date}</td>
                                                 <td>{item.gender}</td>
                                                 <td>{item.phone}</td>
-                                                <td><button onClick={deletePatient} value={item.id}>Delete</button></td>
+                                                <td><button value={item.id} onClick={deletePatient} >Delete</button></td>
                                             </tr>
                                         )
                                     
