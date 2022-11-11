@@ -97,7 +97,8 @@ const Patients =  (props)=>{
 }
     return (
         <div>
-            <form onSubmit={submit}>
+        <div className="form">
+            <form className ='form' onSubmit={submit}>
             <input value={fullName} onChange={changeFullName} placeholder="Full Name" />
             <input value={phone} onChange={changePhone} placeholder="Phone" />
             <select value={gender} onChange={changeGender} >
@@ -108,7 +109,9 @@ const Patients =  (props)=>{
             <input type="submit"/>
             </form>
             <input type="search" id="search-box" placeholder="search here... " autocomplete="on" onChange= {searchFromTable}/>
-            <table border="1" width="30%" >
+            </div>
+            <div className="table"> 
+            <table >
                 <caption>Information For Students</caption>
                             <thead>
                                 <tr>
@@ -154,6 +157,7 @@ const Patients =  (props)=>{
                                 </tr>
                             </tfoot>
                     </table>
+                    </div>
         </div>
     )
 }
