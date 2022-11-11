@@ -1,12 +1,11 @@
-import './App.css';
-
-const App = ()=>{
-  // State here
+// import logo from "./logo.svg";
+import "./App.css";
+import PatientForm from "./component/Patient/Patient Form";
+import Users from "./component/testing/users";
+function App() {
   return (
     <div className="App">
-      {/* Add new patient FORM */}
-      {/* Search input */}
-      {/* Table */}
+      <PatientForm />
     </div>
   );
 }
