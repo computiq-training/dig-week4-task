@@ -1,0 +1,96 @@
+.input-section {
+    position: relative;
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.input-section>input,
+input,
+select {
+    margin: 10px 15px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    width: 270px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.222);
+
+}
+
+
+.submit {
+    text-align: right;
+    width: 96%;
+    margin: 0px;
+}
+
+.submit button {
+    margin: 20px;
+    padding: 14px 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgba(102, 102, 102, 0.2);
+    transition: all ease 0.2s;
+}
+
+.submit>button:hover {
+    background-color: rgba(102, 102, 102, 0.3);
+}
+
+.input-section>button:active {
+    background-color: rgba(102, 102, 102, 0.5);
+}
+
+.table-container {
+    position: relative;
+    height: 500px;
+    border: 2px solid rgba(0, 0, 0, 0.332);
+    padding: 0px;
+    overflow: scroll;
+}
+
+.patient-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    font-size: 1rem;
+    padding: 7px;
+}
+
+.patient-table>thead {
+    background-color: rgb(39, 141, 255);
+    font-weight: bold;
+    color: rgb(23, 23, 23);
+    width: 100%;
+}
+
+.patient-table tr {
+    margin-top: 10px;
+}
+
+.patient-table .GRAY {
+    background-color: #dadadaf3;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.patient-table .WHITE {
+    background-color: white;
+}
+
+td>div {
+    text-align: center;
+    align-items: center;
+}
+
+.Delete-Patient {
+    background-color: red;
+    border: none;
+    padding: 3px 15px;
+}
