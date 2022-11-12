@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "fullName": "ahmed",
+      "gender": "male",
+      "phoneNumber": "333-962-7516",
+      "birthdate": "2022-11-02"
+    },
+    {
+      "id": 2,
+      "fullName": "maryam",
+      "gender": "female",
+      "phoneNumber": "011-211-7516",
+      "birthdate": "2022-11-02"
+    },
+    {
+      "id": 3,
+      "fullName": "noor",
+      "gender": "female",
+      "phoneNumber": "788-962-7516",
+      "birthdate": "2022-11-02"
+    }
+  ]
