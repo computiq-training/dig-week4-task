@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Patient.css";
 import p from "./Patient info";
 import PatientMapping from "./Patient Mapping";
+import Search from "./search";
 
 const PatientForm = () => {
   const [patients, setPatients] = useState(p);
@@ -38,11 +39,8 @@ const PatientForm = () => {
   };
 
   const Gender = (e) => {
-    console.log(gender);
     let val = e.target.value;
     setGender(val);
-    console.log(val);
-    console.log(gender);
   };
 
   return (
@@ -78,7 +76,7 @@ const PatientForm = () => {
           </button>
         </div>
       </div>
-      <input type="search" placeholder="Search" />
+      <Search list={patients} setList={setPatients} />
       <div className="table-container">
         <table className="patient-table">
           <thead>
