@@ -1,12 +1,10 @@
 import './App.css';
-
+import Patients from './Patients'
 const App = ()=>{
   // State here
   return (
     <div className="App">
-      {/* Add new patient FORM */}
-      {/* Search input */}
-      {/* Table */}
+      <Patients />
     </div>
   );
 }
