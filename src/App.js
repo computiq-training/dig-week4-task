@@ -1,23 +1,20 @@
 import './App.css';
-import React from 'react';
-import Patients from './Components/Patients';
-import AddNew from './Components/Patients';
-import SearchList from './Components/SearchList';
-import PATIENTS from './Components/Patients';
-import Search from './Components/Search';
+import Patients from './pages/patients';
+import Search from './pages/Search';
+import Login from './pages/login';
+import Signup from './pages/Signup';
 
-function App () {
-return (
-  <div>
-    <header>
-    
-      <AddNew/>
-      <SearchList/>
-      <Patients/>
-      <Search details={PATIENTS}/>
-    </header>
-  </div>
-);
+function App() {
+ 
+
+  return (
+    <div className="App">
+         <Login/>
+         <Signup/>
+         <Search/>
+         <Patients/>
+    </div>
+  );
 }
 
 export default App;
