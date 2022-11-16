@@ -1,12 +1,18 @@
 import './App.css';
+import Patients from './pages/patients';
+import Search from './pages/Search';
+import Login from './pages/login';
+import Signup from './pages/Signup';
 
-const App = ()=>{
-  // State here
+function App() {
+ 
+
   return (
     <div className="App">
-      {/* Add new patient FORM */}
-      {/* Search input */}
-      {/* Table */}
+         <Login/>
+         <Signup/>
+         <Search/>
+         <Patients/>
     </div>
   );
 }
