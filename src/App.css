@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+.form_class {
+  display: white;
+  margin: 60px auto;
+  
+  width: 90%;
+}
+.table {
+  border: 2px solid rgb(34, 124, 177);
+  width: 800px;
+  height: 200px;
+  position: relative;
+  left: 20px;
+  top: 100px;
+}
+
+input{
+  margin:5px ;
+}
+
+.delete {
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  background-color: #FF5353;
+  font-weight: bold;
+}
+
+.table td {
+  padding: 3px 6px;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+
+.table tr:nth-child(even) {
+  background-color: white;
+}
+.button {
+  color: white;
+  background-color: blue;
+}
